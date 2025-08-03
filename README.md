@@ -66,5 +66,5 @@ This project is open source and free to use under the [MIT License](LICENSE).
 
 ## 🙌 Acknowledgements
 
-Built with ❤️ by **Winodh Prasanna**
-Visit my **[Portfolio]**()  🚀
+-Built with ❤️ by **Winodh Prasanna**
+-Visit my **[Portfolio]**(https://winodh-prasanna.github.io/My-Portfolio)  🚀
