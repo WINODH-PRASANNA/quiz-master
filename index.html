@@ -1,0 +1,172 @@
+<!--<?php
+session_start();
+
+// Unset all session variables
+$_SESSION = array();
+
+// Destroy the session
+session_destroy();
+
+// Redirect to login page
+header("Location: auth.php");
+exit();
+?>-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+        <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta name="theme-color" content="#67a8f0">
+                <title>Quiz Master ||| Quiz Management System</title>
+                <link rel="stylesheet" href="assets/css/main.css">
+                <link rel="stylesheet" href="assets/css/nav.css">
+                <link rel="stylesheet" href="assets/css/mobile.css">
+                <link rel="stylesheet"
+                        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+                <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+                <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
+        </head>
+
+        <body>
+
+                <!-- navigation bar -->
+                <nav>
+                        <div class="logo">
+                                <a href="#home">
+                                        <img src="assets/images/logo.png" alt="Quiz Master Logo">
+                                        <h1>Quiz Master</h1>
+                                </a>
+                        </div>
+
+                        <div class="mobile-menu-toggle">
+                                <i class="ri-menu-4-fill"></i>
+                        </div>
+
+                        <div class="nav-items">
+                                <div class="items">
+                                        <a href="#home" class="active">
+                                                <li><i class="ri-home-office-line"></i> Home</li>
+                                        </a>
+                                        <a href="courses.html">
+                                                <li><i class="ri-book-shelf-line"></i> Courses</li>
+                                        </a>
+                                        <a href="about.html">
+                                                <li><i class="ri-information-line"></i> About</li>
+                                        </a>
+                                        <a href="contact.html">
+                                                <li><i class="ri-customer-service-2-line"></i> Contact</li>
+                                        </a>
+                                        <a href="faq.html">
+                                                <li><i class="ri-question-answer-line"></i> FAQs</li>
+                                        </a>
+                                </div>
+
+                                <div class="nav-btn">
+                                        <a href="auth.php"><i class="ri-bubble-chart-line"></i> Start</a>
+                                </div>
+                        </div>
+                </nav>
+
+                <!-- main section -->
+                <main class="content">
+
+                        <!-- home section -->
+                        <section class="container home-container" id="home">
+
+                                <!-- main content -->
+                                <h1 class="main-heading">Welcome to Quiz Master</h1>
+                                <h3 class="sub-heading">Your ultimate solution for smart, simple, and effective quiz
+                                        management.</h3>
+                                <p class="paragraph">Whether you're a teacher, student, or trainer, Quiz Master makes it
+                                        easy to create, share, and take quizzes anytime, anywhere. Go beyond basic exams
+                                        and access quizzes on university subjects, programming, AI, cybersecurity, and
+                                        the latest tech trends. Get instant results, track progress. Safe, simple, and
+                                        always accessible, Quiz Master is your trusted partner to test knowledge, boost
+                                        confidence, and learn more every day. Join today and master your next quiz with
+                                        ease!</p>
+
+                                <div class="home-btns">
+                                        <a href="auth.php" class="home-btn"><i class="ri-send-plane-line"></i> Start
+                                                Quizzes</a>
+                                        <a href="courses.html" class="home-btn"><i class="ri-presentation-line"></i>
+                                                Explore More</a>
+                                </div>
+
+                                <!-- special content -->
+                                <div class="special">
+                                        <div class="special-heading">What Makes Quiz Master Special ?</div>
+                                        <div class="items">
+                                                <div class="cart">
+                                                        <h2>🛠️ Easy Quiz Creation</h2>
+                                                        <p>Make quezzes fast with different question types</p>
+                                                </div>
+                                                <div class="cart">
+                                                        <h2>🧑‍🎓 Flexible User Management</h2>
+                                                        <p>Add learners, assign quizzes, track easily</p>
+                                                </div>
+                                                <div class="cart">
+                                                        <h2>⚡ Instant Greading & Feedback</h2>
+                                                        <p>Get automatic results and clear feedback</p>
+                                                </div>
+                                        </div>
+                                        <div class="items">
+                                                <div class="cart">
+                                                        <h2>📊 Insighful Analytics</h2>
+                                                        <p>See detailed reports and student progress</p>
+                                                </div>
+                                                <div class="cart">
+                                                        <h2>🔏 Safe & Secure</h2>
+                                                        <p>Datastays private and protected</p>
+                                                </div>
+                                                <div class="cart">
+                                                        <h2> 🪄 Community & Leaderboards</h2>
+                                                        <p>Compete, connect, and stay motivated</p>
+                                                </div>
+                                        </div>
+                                </div>
+
+                                <!-- reason content -->
+                                <div class="reason">
+                                        <div class="special-heading">Why Choose Quiz Master ?</div>
+                                        <div class="points">
+                                                <li>Simple, clean user-friendly interface.</li>
+                                                <li>24/7 support and regular updates.</li>
+                                                <li>Saves time and effort.</li>
+                                                <li>Boosts learning outcomes.</li>
+                                                <li>Mobile-friendly accessible anywhere.</li>
+                                                <li>Affordable plans for all needs.</li>
+                                        </div>
+                                </div>
+
+                                <!-- join now -->
+                                <div class="special-heading">Join Quiz Master Today !</div>
+                                <p>Thousands trust <span>Quiz Master</span> to simplify their quiz process. Be a part of
+                                        the smart learning revolution !</p>
+                                <div class="join-btn">
+                                        <a href="auth.php" class="home-btn"><i class="ri-psychotherapy-line"></i> Get
+                                                Start Now</a>
+                                </div>
+
+                                <div class="special-heading">Stay Updateed with Tech Trends</div>
+                                <p>Our platform regularly updatesits quiz bank with the latest technology. Stay ahead
+                                        with practice tests on emerging tech skills and industry trends.</p>
+                                <div class="join-btn">
+
+                        </section>
+
+                        <footer>
+                                <p>Quiz Master - Where Questions Build Champions. <br> &copy; 2025 Quiz Master | All
+                                        right reserved.</p>
+                        </footer>
+
+                </main>
+
+                <!-- link script -->
+                <script src="assets/js/script.js"></script>
+
+        </body>
+
+</html>
